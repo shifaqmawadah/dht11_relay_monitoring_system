@@ -1,0 +1,2 @@
+#TEMPERATURE AND HUMIDITY MONITORING WITH RELAY TRIGGER AND NEAR REAL-TIME GRAPH
+The ESP32 with a DHT11 sensor and a relay module captures environmental readings and sends them to the server via HTTPS/JSON. The backend stores readings and threshold values in a MySQL database. Users interact with the mobile app in order to present sensor data, analysis, and threshold control, which are safely retrieved and refreshed by authorized API requests. All communication between components is safeguarded through HTTPS.
